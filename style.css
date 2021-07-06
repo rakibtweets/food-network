@@ -176,9 +176,7 @@ body {
     padding: 20px;
     margin-bottom: 200px;
 }
-/* .feedback-form{
-    
-} */
+
 .info-header {
     font-size: 30px;
     font-weight: bold;
@@ -191,12 +189,43 @@ body {
     margin-top: 20px;
     margin-bottom: 50px;
 }
-#person-info{
+/* #person-info {
     display: flex;
+} */
+
+#feedback-form {
+    width: 100%;
 }
-.form-input input {
-    height: 50px;
-    padding: 50px;
+
+.form-info {
+    height: 35px;
+    padding: 20px;
+    width: 200px;
+    border: none;
+    box-shadow: 20px 20px 20px 10px rgb(199, 196, 196);
+}
+.person-details {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+#comment-box textarea {
+    width: 35%;
+    border: none;
+    box-shadow: 20px 20px 20px 10px rgb(199, 196, 196);
+    padding: 15px;
+}
+
+button {
+    background-color: #0dc9eb;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 /* Feedback Style End */
@@ -205,7 +234,6 @@ body {
 
 .feedback-info {
     background-color: #eee;
-    
 }
 .footer-head {
     font-size: 50px;
@@ -213,33 +241,4 @@ body {
 }
 .footer-logo {
     color: orange;
-}
-.form-info{
-    height: 35px;
-    padding: 20px;
-    width: 250px;
-    border: none;
-    box-shadow: 20px 20px 20px 10px rgb(199, 196, 196);
-}
-.person-details{
-    width: 80%;
-    display: flex;
-    justify-content:space-evenly;
-    margin: auto;
-}
-#person-name{
-
-}
-#person-id{
-
-}
-button{
-    background-color: #0DC9EB;
-    border: none;
-    padding: 15px;
-    border-radius: 10px;
-    font-weight: bold;
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
 }
