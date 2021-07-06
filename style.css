@@ -124,7 +124,7 @@ body {
 
 /* About Section End */
 
-/* Recipi Section Start */
+/* Recipe Section Start */
 
 .recipe-header {
     text-align: center;
@@ -146,6 +146,100 @@ body {
 .display-recipe {
     width: 30%;
     padding-left: 18px;
-    box-shadow: 20px 20px 50px rgb(219, 219, 219);
+    box-shadow: 20px 20px 50px rgb(199, 196, 196);
     border-radius: 25px;
+    margin-bottom: 100px;
+}
+/* Recipe Section End */
+
+/* Media Section style */
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 20px 20px 20px 20px rgb(199, 196, 196);
+    border-radius: 25px;
+    margin-bottom: 300px;
+}
+
+/* Media Style End */
+
+/* Feedback Style Start*/
+.feedback-info {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+/* .feedback-form{
+    
+} */
+.info-header {
+    font-size: 30px;
+    font-weight: bold;
+    color: #282f37;
+}
+.info-para {
+    font-size: 20px;
+    font-weight: 500;
+    color: #646060;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#person-info{
+    display: flex;
+}
+.form-input input {
+    height: 50px;
+    padding: 50px;
+}
+
+/* Feedback Style End */
+
+/* Footer Section */
+
+.feedback-info {
+    background-color: #eee;
+    
+}
+.footer-head {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.footer-logo {
+    color: orange;
+}
+.form-info{
+    height: 35px;
+    padding: 20px;
+    width: 250px;
+    border: none;
+    box-shadow: 20px 20px 20px 10px rgb(199, 196, 196);
+}
+.person-details{
+    width: 80%;
+    display: flex;
+    justify-content:space-evenly;
+    margin: auto;
+}
+#person-name{
+
+}
+#person-id{
+
+}
+button{
+    background-color: #0DC9EB;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
 }
