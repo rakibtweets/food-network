@@ -25,9 +25,8 @@ body {
     color: azure;
     text-decoration: none;
 }
-.title-logo span{
+.title-logo span {
     color: orange;
-    
 }
 
 .nav-list {
@@ -84,9 +83,7 @@ body {
     width: 45%;
     padding: 10px;
 }
-.bannar-img {
-    padding-left: 00px;
-}
+
 #lady-model {
     padding-left: 50px;
 }
@@ -139,22 +136,30 @@ body {
     margin: auto;
 }
 .recipe-img {
-    height: 250;
-    width: 330px;
-    padding-top: 15px;
+    
+    width: 100%;
+    padding: 10px;
 }
 .recipe-items {
     display: flex;
-    justify-content: space-evenly;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 100px;
+    
 }
 .display-recipe {
     width: 30%;
-    padding-left: 18px;
+    padding: 12px;
+    margin: 20px;
     box-shadow: 20px 20px 50px rgb(199, 196, 196);
     border-radius: 25px;
-    margin-bottom: 150px;
+    
+}
+.display-recipe h3{
+    padding: 10px 0;
+}
+.display-recipe p{
+    padding: 10px 0;
 }
 /* Recipe Section End */
 
@@ -180,7 +185,7 @@ body {
 .feedback-info {
     text-align: center;
     padding: 50px 20px;
-    /* margin-bottom: 150px; */
+    
 }
 
 .info-header {
@@ -195,9 +200,7 @@ body {
     margin-top: 20px;
     margin-bottom: 50px;
 }
-/* #person-info {
-    display: flex;
-} */
+
 
 #feedback-form {
     width: 100%;
@@ -234,7 +237,7 @@ body {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-    background-image: linear-gradient(tomato,orange)
+    background-image: linear-gradient(tomato, orange);
 }
 .feedback-info {
     background-color: #eee;
@@ -243,15 +246,14 @@ body {
 
 /* Footer Section */
 
-#footer-info{
-    background-color: #282F37;
+#footer-info {
+    background-color: #282f37;
     text-align: center;
     height: 200px;
     padding: 30px 20px;
     color: azure;
-
 }
-.footer-para{
+.footer-para {
     color: #cec7c7;
 }
 .footer-head {
@@ -262,3 +264,4 @@ body {
 .footer-logo {
     color: orange;
 }
+/* Footer Style End */
