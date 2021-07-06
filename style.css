@@ -215,10 +215,11 @@ body {
     border: none;
     box-shadow: 20px 20px 20px 10px rgb(199, 196, 196);
     padding: 15px;
+    margin-bottom: 50px;
 }
 
-button {
-    background-color: #0dc9eb;
+.submit-button {
+    background-color: #6d959c;
     border: none;
     padding: 15px;
     border-radius: 10px;
@@ -226,6 +227,7 @@ button {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+    background-image: linear-gradient(to bottom, #00ffff 0%, #99ffcc 100%);
 }
 
 /* Feedback Style End */
