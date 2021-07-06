@@ -118,7 +118,7 @@ body {
     text-decoration: none;
 
     color: whitesmoke;
-    background: linear-gradient(orange,red);
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
     padding: 15px 25px 15px 25px;
     border-radius: 25px;
     font-weight: 300;
